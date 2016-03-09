@@ -497,7 +497,7 @@ div#benefits {
 
 #benefits p {}
 
-#images {
+.images {
   background: url(../images/concert400A.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -507,11 +507,61 @@ div#benefits {
   width: 100%;
 }
 
-.concerts {
+.images2 {
+  background: url(../images/guitarist.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
 
+/* Benefits
+–––––––––––––––––––––––––––––––––––––––––––––––––– */  
+div#features {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+#features .one-half .feature span.icon img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 20px;
 }
 
 
+#features .one-half .feature h3 {
+padding: 10px 0 0 0;
+}
+
+#features .one-half.info {
+  margin-top: 70px;
+}
+
+#features .info .feature {
+margin-bottom: 50px;
+}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */  
+div#footer {
+  background-image: linear-gradient(0deg, #272A31 16%, #3D414A 61%);
+}
+
+#footer {
+  padding: 50px 0 30px 0;
+}
+
+.copyright {
+  clear: both;
+}
+
+.store {
+  text-align: right;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -522,6 +572,15 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+/* Larger than mobile */
+@media (max-width: 1170px) {
+  #features .one-half.info {
+    clear: both;
+  }
+  #features .one-half {
+    margin: 0 auto;
+  }
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
