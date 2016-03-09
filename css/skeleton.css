@@ -517,7 +517,7 @@ div#benefits {
   width: 100%;
 }
 
-/* Benefits
+/* Features
 –––––––––––––––––––––––––––––––––––––––––––––––––– */  
 div#features {
   margin-top: 100px;
@@ -576,6 +576,27 @@ there.
 @media (max-width: 1170px) {
   #features .one-half.info {
     clear: both;
+  }
+
+    #features .container {
+    width: 100%;
+  }
+
+    #features .container .feature {
+      text-align: center;
+    }
+
+   #features .one-half .feature span.icon img{
+    float: none;
+   }
+
+   #features .one-half img{
+    width: 85%;
+    margin-left: 10%;
+   }
+
+  #features .container .one-half {
+    margin-left: 25%;
   }
 }
 
