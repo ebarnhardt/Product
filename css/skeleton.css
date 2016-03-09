@@ -572,13 +572,10 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-/* Larger than mobile */
+/* Fix Features Section */
 @media (max-width: 1170px) {
   #features .one-half.info {
     clear: both;
-  }
-  #features .one-half {
-    margin: 0 auto;
   }
 }
 
