@@ -600,6 +600,19 @@ there.
   }
 }
 
+@media (max-width: 550px) {
+   #features .one-half img {
+    width: 50%;
+    margin: 0%;
+  }
+
+  #features .one-half.info {
+    margin: 0 auto;
+    padding: 30px 30px 0 30px;
+    }
+
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
