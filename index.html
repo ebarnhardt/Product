@@ -27,6 +27,12 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+<!-- Sticky
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ 
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+
 </head>
 <body>
 
@@ -158,5 +164,18 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+$(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 290) {
+            $('.nav').addClass('.scrolled');
+        }
+        else {
+            $('.nav').removeClass('.scrolled');
+        }
+    });
+});
+</script>
+
 </body>
 </html>
