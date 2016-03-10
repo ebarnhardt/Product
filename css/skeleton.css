@@ -430,13 +430,13 @@ background-image: linear-gradient(-180deg, #6872DF 50%, #414796 100%);
 #header .logo {
   float: left;
   padding-left: 100px;
-  margin-top: 0px;
+  margin-top: -2px;
 }
 
 header nav {
   float: right;
   padding-right: 100px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 .nav {
@@ -456,7 +456,7 @@ header nav {
   margin-top: 20px;
   width: 100%;
   z-index: 1000000;
-  height: 50px;
+  height: 60px;
   position: fixed;
   left: 0;
   top: 0;
@@ -465,20 +465,6 @@ header nav {
   margin-top: 0px;
   padding-top: 20px;
 }
-
-.navy-scrolled {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    height: 50px;
-    background-color: #414796;
-    padding-top: 26px;
-    margin-top: 0px;
-  }
-
-
 
 header h1 {
   clear: both;
@@ -489,6 +475,13 @@ header h1 {
 
 .marketing {
   text-align: center;
+}
+
+button.ghost {
+  border: 2px solid #FFF;
+  background-color: transparent;
+  width: 150px;
+  box-shadow: none;
 }
 
 header button {
@@ -676,22 +669,17 @@ there.
 }
 }
 
-@media (max-width: 500px) {
-  header nav {
-    clear:both;
-    padding-top: 10px;
-    padding-right: 0;
-    float: none;
-    margin-left: 35%;
+@media (max-width: 600px) {
+  button.ghost {
+  display: none;
   }
-  .nav-scrolled {
-    height: 100px;
-  }
+
   header .logo {
-    float: none;
+    clear: both;
+    float: none !important;
     margin: 0 auto;
-    padding-left: 0;
-    margin-left: 10%;
+    padding-left: 0 !important;
+    text-align: center;
   }
 
 }
