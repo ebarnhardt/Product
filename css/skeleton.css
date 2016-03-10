@@ -676,6 +676,25 @@ there.
 }
 }
 
+@media (max-width: 500px) {
+  header nav {
+    clear:both;
+    padding-top: 10px;
+    padding-right: 0;
+    float: none;
+    margin-left: 35%;
+  }
+  .nav-scrolled {
+    height: 100px;
+  }
+  header .logo {
+    float: none;
+    margin: 0 auto;
+    padding-left: 0;
+    margin-left: 10%;
+  }
+
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
