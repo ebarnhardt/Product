@@ -484,6 +484,13 @@ button.ghost {
   box-shadow: none;
 }
 
+button.ghost:hover {
+color: white;
+ background-color: #DA3E68;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);
+border: none;
+}
+
 header button {
   margin-top: 10px;
 }
@@ -532,10 +539,8 @@ div#benefits {
   margin-bottom: 30px;
 }
 
-#benefits p {}
-
 .images {
-  background: url(../images/concert400A.png) no-repeat center center fixed;
+  background: url(../images/singer2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -545,7 +550,7 @@ div#benefits {
 }
 
 .images2 {
-  background: url(../images/guitarist.png) no-repeat center center fixed;
+  background: url(../images/dj.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -593,7 +598,7 @@ div#footer {
 }
 
 #footer .logo img {
-  width: 70%;
+  height: 20%;
 }
 
 .copyright {
@@ -661,6 +666,7 @@ there.
     .download {
       float: none;
     }
+
   }
 
 /* Fix phone header*/
@@ -674,11 +680,13 @@ there.
 }
 }
 
+/* Hide Button at small sizes*/
 @media (max-width: 600px) {
   button.ghost {
   display: none;
   }
 
+/* center logo with button hidden*/
   header .logo {
     clear: both;
     float: none !important;
