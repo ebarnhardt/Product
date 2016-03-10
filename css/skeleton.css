@@ -418,7 +418,7 @@ p {
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */  
 div#header {
-background-image: linear-gradient(-180deg, rgba(97,108,215,0.50)  9%, #565FBF 94%);
+background-image: linear-gradient(-180deg, #6872DF 50%, #414796 100%);
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -427,7 +427,7 @@ background-image: linear-gradient(-180deg, rgba(97,108,215,0.50)  9%, #565FBF 94
   width: auto;
 }
 
-.logo {
+#header .logo {
   float: left;
   padding-left: 100px;
 }
