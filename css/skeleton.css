@@ -430,11 +430,13 @@ background-image: linear-gradient(-180deg, #6872DF 50%, #414796 100%);
 #header .logo {
   float: left;
   padding-left: 100px;
+  margin-top: 5px;
 }
 
 header nav {
   float: right;
   padding-right: 100px;
+  margin-top: -10px;
 }
 
 .nav {
@@ -450,6 +452,21 @@ header nav {
 }
 
 .nav-scrolled {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
+  z-index: 1000000;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: #414796;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.navy-scrolled {
     position: fixed;
     width: 100%;
     left: 0;
@@ -461,9 +478,6 @@ header nav {
     margin-top: 0px;
   }
 
-#header nav img {
-    width: 80%;
-}
 
 
 header h1 {
