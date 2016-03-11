@@ -501,18 +501,30 @@ header {
 }
 
 .markers {
-  margin-left: 30%;
-  margin-top: 0px;
-  position: absolute;
-  bottom: 30px;
+  background: url(../images/markers.png) no-repeat center bottom;
+  height: 200px;
+  right: 25%;
+  top: 80px;
   z-index: 1;
+  position: relative;
+  margin-left: 50%;
+}
+
+.phone {
+  background: url(../images/phone.png) no-repeat center bottom;
+  width: 100%;
+  height: 100px;
+  clear: both;
+}
+
+.phone img {
+  width: 50%;
 }
 
 .iphone {
-  margin: 0 auto;
   position: absolute;
-  bottom: -6px;
-  left: 75px;
+  bottom: 0;
+  width: 100%;
 }
 
 .markers img {
@@ -670,15 +682,16 @@ there.
   }
 
 /* Fix phone header*/
-@media (max-width: 1200px) {
-.iphone img {
-  width: 95%;
-   margin-left: -10%;
-}
-.markers {
- margin-left: 15%;
-}
-}
+@media (max-width: 967px) {
+  .phone {
+    background-size: 100%;
+  }
+    .markers {
+    background-size: 100%;
+  }
+  .iphone {
+  }
+  }
 
 /* Hide Button at small sizes*/
 @media (max-width: 600px) {
